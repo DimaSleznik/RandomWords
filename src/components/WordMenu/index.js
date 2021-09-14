@@ -1,0 +1,1 @@
+export {WordMenu} from './WordMenu';

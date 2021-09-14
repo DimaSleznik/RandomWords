@@ -1,0 +1,36 @@
+.Navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.288);
+}
+.Navbar a {
+  font-size: 1.2em;
+  border-radius: 1px;
+  margin-left: 10px;
+  background-color: rgba(255, 255, 255, 0.041);
+  text-decoration-line: none;
+  color: rgba(0, 0, 0, 0.63);
+}
+.Navbar a:hover {
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.list-link::before {
+  content: " ";
+  width: 15px;
+  margin-right: 10px;
+  height: 15px;
+  display: inline-block;
+  background-image: url("../../img/icon/lits_icon.png");
+  background-size: cover;
+}
+.option-link::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  margin-top: 1px;
+  padding-top: 2px;
+  display: inline-block;
+  background-image: url("../../img/icon/options_icon.png");
+  background-size: cover;
+}

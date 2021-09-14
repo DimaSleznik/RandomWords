@@ -1,0 +1,55 @@
+.form:focus {
+  background-color: white;
+}
+.list-form {
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 5%;
+  min-width: 80%;
+  background-color: rgba(245, 245, 245, 0.253);
+}
+.field {
+  margin-top: 50px;
+}
+.field > input:focus {
+  box-shadow: 1px 0 7px rgba(42, 136, 70, 0.76);
+}
+.field input {
+  border: 1px solid white;
+  background-color: rgba(245, 245, 245, 0.418);
+}
+.add-list {
+  word-break: normal;
+  background-color: rgba(255, 255, 255, 0.507);
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 200px;
+  min-height: 60px;
+  color: rgba(0, 0, 0, 0.623);
+  margin-top: 80%;
+  cursor: pointer;
+}
+.add-list:hover {
+  background-color: white;
+}
+.added {
+  border: 1px solid white;
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgba(245, 245, 245, 0.39);
+  min-width: 30%;
+}
+.add-word {
+  background-color: rgba(255, 255, 255, 0.507);
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 150px;
+  min-height: 25px;
+  color: rgba(0, 0, 0, 0.623);
+  margin-top: 4%;
+  cursor: pointer;
+}

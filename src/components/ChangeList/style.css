@@ -1,0 +1,35 @@
+.change-list {
+  overflow: auto;
+  background-color: rgba(161, 169, 172, 0.082);
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.delete_button {
+  background-color: rgba(255, 255, 255, 0.274);
+  margin-top: 10px;
+  border: none;
+}
+.delete_button:hover {
+  background-color: rgba(255, 255, 255, 0.418);
+}
+.list_element {
+  margin-top: 3px;
+}
+.list_element input {
+  border-radius: 2px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.541);
+}
+.list_element button {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.671);
+}
+.list_element button:hover {
+  background-color: rgba(255, 255, 255, 0.795);
+}

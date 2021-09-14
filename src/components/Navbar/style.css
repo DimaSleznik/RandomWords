@@ -1,7 +1,7 @@
 .Navbar {
   display: flex;
   justify-content: space-around;
-  background-color: rgba(255, 255, 255, 0.288);
+  background-color: rgba(255, 255, 255, 0.479);
 }
 .Navbar a {
   font-size: 1.2em;

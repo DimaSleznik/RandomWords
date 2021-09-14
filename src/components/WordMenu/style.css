@@ -5,13 +5,13 @@
   margin-left: 50%;
   transform: translateX(-50%);
   min-height: 35px;
-  background-color: rgba(245, 245, 245, 0.267);
+  background-color: #dfdcd9;
   border: none;
   cursor: pointer;
   border-radius: 4px;
 }
 .WordMenu > button:hover {
-  background-color: rgba(245, 245, 245, 0.568);
+  background-color: #ff8906;
 }
 .WordMenu > button::after {
   content: "";
@@ -40,7 +40,7 @@
   max-width: 90%;
   margin: 2%;
   height: 80px;
-  background-color: rgba(245, 245, 245, 0.253);
+  background-color: #928f8b6c;
 }
 .lists > .container:hover {
   background-color: rgba(245, 245, 245, 0.568);

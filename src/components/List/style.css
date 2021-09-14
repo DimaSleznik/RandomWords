@@ -23,6 +23,12 @@
 .word-menu button:hover {
   background-color: rgba(255, 255, 255, 0.925);
 }
+.cirle-timer {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  padding-bottom: 10px;
+}
 .currentWord {
   text-align: center;
   display: block;
